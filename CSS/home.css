@@ -1,0 +1,70 @@
+/*** DEVELOPER: Allie He, IS117003, Fall 2022 ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 2.8em;
+    padding: 10px 0;
+    font-weight: 800;
+    color: darkslategrey;
+    background-color: #f0a5a5;
+    alignment: center;
+}
+p {
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.banner {
+    width: 100%;
+    padding: 200px 0;
+    text-align: center;
+    background: #f0a5a5;
+    color: white;
+}
+body{
+    background-color: lightcyan;
+}
+a {
+    text-decoration: none;
+}
+/*** nav bar ***/
+li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkslategrey;
+    color: #fff;
+}
+.nav-links a {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #f0a5a5;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+main{
+    text-align: center;
+}
+footer{
+    background-color: #f0a5a5;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}
