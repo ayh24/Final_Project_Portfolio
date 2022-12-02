@@ -9,6 +9,14 @@ html {
     font-size: 62.5%;
     text-align: center;
 }
+h1 {
+    font-size: 2.8em;
+    padding: 10px 0;
+    font-weight: 800;
+    color: darkslategrey !important;
+    background-color: #f0a5a5;
+    text-align: center;
+}
 body {
     background-color: lightcyan;
     align-content: center;
@@ -19,9 +27,9 @@ body {
     width: 60%;
     margin: 2rem auto;
 }
-div.gallery {
+div .gallery {
     border: 1px solid #ccc;
-}
-div.gallery:hover {
-    border: 1px solid #777;
+    column-count: 2;
+    padding: 0 2em 0 2em;
+    text-align: center;
 }

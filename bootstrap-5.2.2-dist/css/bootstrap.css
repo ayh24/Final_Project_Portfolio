@@ -2881,10 +2881,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: darkslategrey;
+  --bs-btn-bg: darkslategrey !important;
   --bs-btn-border-color: darkslategrey;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: darkslategrey;
+  --bs-btn-hover-bg: darkslategrey !important;
   --bs-btn-hover-border-color: darkslategrey;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
@@ -2893,7 +2893,7 @@ textarea.form-control-lg {
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: darkslategrey;
-  --bs-btn-disabled-border-color: darkslategrey;
+  --bs-btn-disabled-border-color: darkslategrey !important;
 }
 
 .btn-secondary {

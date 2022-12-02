@@ -4,9 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: lightcyan;
+h1 {
+    font-size: 2.8em;
+    padding: 10px 0;
+    font-weight: 800;
+    color: darkslategrey;
+    background-color: #f0a5a5;
+    alignment: center;
 }
-body{
+.socials{
+    text-align: center;
+}
+.contact{
     text-align: center;
 }
