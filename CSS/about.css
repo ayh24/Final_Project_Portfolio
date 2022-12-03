@@ -5,12 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e6f0f0 !important;
+    background-color: #b1ccca !important;
 }
 h1 {
     font-size: 2.8em;
     padding: 10px 0;
     font-weight: 800;
+    width: 100%
     color: darkslategrey;
     background-color: #f0a5a5;
     text-align: center;
@@ -26,6 +27,6 @@ h1 {
 .about p{
     text-align: justify;
 }
-.resume{
+#resume{
     text-align: center;
 }
