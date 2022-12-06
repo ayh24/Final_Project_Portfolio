@@ -44,7 +44,7 @@ li {
 .logo{
     font-size: x-large;
     float: left;
-    margin-right: 1em;
+    margin: 0 1em;
     background-color: #f09c9c;
     text-align: center;
 }
@@ -87,7 +87,7 @@ main{
     background-color: darkslategrey !important;
 }
 .footer {
-     position: fixed !important;
+     position: relative !important;
      bottom: 0;
      width: 100%;
      background-color: #f0a5a5 !important;
@@ -95,5 +95,5 @@ main{
      text-align: center;
      font-size: xx-small;
      margin: 0;
-     padding: 0;
+     padding: 10px;
 }

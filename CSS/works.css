@@ -16,18 +16,14 @@ body {
     align-content: center;
     line-height: 1.6;
 }
-.container {
-    width: 60%;
-    margin: 2rem auto;
-}
+
 div .gallery {
-    border: 1px solid #ccc;
     column-count: 2;
     padding: 0 2em 0 2em;
     text-align: center;
 }
 .footer {
-    position: fixed !important;
+    position: relative !important;
     bottom: 0;
     width: 100%;
     background-color: #f0a5a5 !important;
@@ -35,5 +31,5 @@ div .gallery {
     text-align: center;
     font-size: xx-small;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }

@@ -6,6 +6,7 @@
 }
 body{
     background-color: #b1ccca !important;
+    text-align: center !important;
 }
 h1 {
     font-size: 2.8em;
@@ -13,7 +14,7 @@ h1 {
     font-weight: 800;
     width: 100%;
     color: darkslategrey;
-    background-color: #f0a5a5;
+    background-color: #f0a5a5 !important;
     text-align: center;
 }
 .about h1{
@@ -21,21 +22,19 @@ h1 {
     margin: 0;
 }
 .about p{
-    text-align: center;
+    text-align: justify;
+    float: left !important;
     padding: 0 3em 2em 3em;
 }
 .about img{
-    float: right;
+    float: right !important;
     margin-left: 2em;
 }
-.about p{
-    text-align: justify;
-}
 #resume{
-    text-align: center;
+    text-align: center !important;
 }
 .footer {
-    position: fixed !important;
+    position: relative !important;
     bottom: 0;
     width: 100%;
     background-color: #f0a5a5 !important;
@@ -43,5 +42,5 @@ h1 {
     text-align: center;
     font-size: xx-small;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
