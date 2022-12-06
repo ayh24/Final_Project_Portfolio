@@ -11,6 +11,10 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+@media screen and (max-width: 400px){
+    basefont{font-size: 90%;}
+    .nav{font-size: 80% !important;}
+}
 body{
     background-color: #b1ccca !important;
     font-family: Century Gothic, sans-serif !important;
@@ -62,9 +66,11 @@ li {
 }
 .nav-links a {
     color: #fff;
+    display: block;
 }
 .nav-links {
     display: flex;
+    float: right;
     gap: 1em;
     font-size: 18px;
 }
