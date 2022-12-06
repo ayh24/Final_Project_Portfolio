@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    padding: 0;
+}
+.container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 body{
     background-color: #b1ccca !important;
     font-family: Century Gothic, sans-serif !important;
@@ -79,7 +86,7 @@ main{
     background-color: darkslategrey !important;
 }
 .footer {
-     position: fixed !important;
+     position: relative !important;
      bottom: 0;
      width: 100%;
      background-color: #f0a5a5 !important;
@@ -87,5 +94,5 @@ main{
      text-align: center;
      font-size: xx-small;
      margin: 0;
-     padding: 0;
+     padding: 1em;
 }
