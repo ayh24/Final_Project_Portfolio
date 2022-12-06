@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 .footer {
-    position: fixed !important;
+    position: absolute !important;
     bottom: 0;
     width: 100%;
     background-color: #f0a5a5 !important;
