@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 .footer {
-    position: fixed !important;
+    position: relative !important;
     bottom: 0;
     width: 100%;
     background-color: #f0a5a5 !important;
@@ -27,5 +27,5 @@ h1 {
     text-align: center;
     font-size: xx-small;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
