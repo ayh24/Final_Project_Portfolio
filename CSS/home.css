@@ -78,6 +78,7 @@ li {
 }
 main{
     text-align: center;
+    padding-bottom: 3em;
 }
 .btn {
     background-color: darkslategrey !important;
@@ -86,7 +87,7 @@ main{
     background-color: darkslategrey !important;
 }
 .footer {
-     position: relative !important;
+     position: fixed !important;
      bottom: 0;
      width: 100%;
      background-color: #f0a5a5 !important;
@@ -94,5 +95,5 @@ main{
      text-align: center;
      font-size: xx-small;
      margin: 0;
-     padding: 1em;
+     padding: 0;
 }

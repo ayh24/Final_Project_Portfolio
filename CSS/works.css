@@ -27,7 +27,7 @@ div .gallery {
     text-align: center;
 }
 .footer {
-    position: absolute !important;
+    position: fixed !important;
     bottom: 0;
     width: 100%;
     background-color: #f0a5a5 !important;
