@@ -4,13 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    text-align: center;
-}
 h1 {
-    font-size: 2.8em;
     padding: 10px 0;
     font-weight: 800;
     color: darkslategrey !important;
@@ -20,7 +14,6 @@ h1 {
 body {
     background-color: lightcyan;
     align-content: center;
-    font-weight: 300;
     line-height: 1.6;
 }
 .container {
@@ -33,6 +26,14 @@ div .gallery {
     padding: 0 2em 0 2em;
     text-align: center;
 }
-.footer{
-    display: inline-block;
+.footer {
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0a5a5 !important;
+    color: white;
+    text-align: center;
+    font-size: xx-small;
+    margin: 0;
+    padding: 0;
 }
